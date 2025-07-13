@@ -1,7 +1,9 @@
 
 const Intro = () => {
   return (
-    <div>Intro</div>
+    <div className="p-2 md:p-4">
+      
+    </div>
   )
 }
 

@@ -1,3 +1,4 @@
+import Separator from "@/components/common/Separator";
 import { Acheivements } from "./Acheivements";
 import { Blogs } from "./Blogs";
 import Intro from "./Intro";
@@ -8,14 +9,20 @@ import { Skills } from "./Skills";
 const Landing = () => {
   return (
     <div className="min-h-screen bg-[#0f0f0f]">
-      <div className="container min-h-screen max-w-2xl mx-auto border border-white/30">
-        <div className="flex flex-col gap-16">
+      <div className="container min-h-screen max-w-2xl mx-auto border border-white/15">
+        <div className=" flex flex-col ">
           <Nav />
+          <Separator />
           <Intro />
+          <Separator />
           <Projects />
+          <Separator />
           <Blogs />
+          <Separator />
           <Skills />
+          <Separator />
           <Acheivements />
+          <Separator />
         </div>
       </div>
     </div>
