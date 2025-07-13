@@ -1,7 +1,7 @@
 
 const Separator = () => {
   return (
-    <div className='my-8 h-6 relative'>
+    <div className='my-6 h-6 relative'>
         <div 
         className=" inset-0 absolute bg-gradient-to-r from-white to-transparent"
           style={{
