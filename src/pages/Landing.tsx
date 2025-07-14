@@ -1,6 +1,6 @@
 import Separator from "@/components/common/Separator";
 import { Acheivements } from "./Acheivements";
-import { Blogs } from "./Blogs";
+import { AlmaMater } from "./AlmaMater";
 import Intro from "./Intro";
 import Nav from "./Nav";
 import Projects from "./Projects";
@@ -15,9 +15,9 @@ const Landing = () => {
           <Separator />
           <Intro />
           <Separator />
-          <Projects />
+          <AlmaMater />
           <Separator />
-          <Blogs />
+          <Projects />
           <Separator />
           <Skills />
           <Separator />

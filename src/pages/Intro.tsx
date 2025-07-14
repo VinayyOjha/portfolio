@@ -47,10 +47,10 @@ const Intro = () => {
           <p className="text-[10px] text-green-500 ">Open for freelance projects</p>
         </div>
         {/* contact, resume and book a call */}
-        <div className="flex gap-2 text-xs text-white/70">
-          <div className="px-2 rounded-xs border border-white/50 bg-neutral-600">Contact</div>
-          <div className="px-2 rounded-xs border border-white/50 bg-neutral-600">Resume</div>
-          <div className="px-2 rounded-xs border border-white/50 bg-neutral-600">Book a call</div>
+        <div className="flex gap-2 text-xs text-black">
+          <div className="px-2 rounded-xs border bg-white">Contact</div>
+          <div className="px-2 rounded-xs border bg-white">Resume</div>
+          <div className="px-2 rounded-xs border bg-white">Book a call</div>
         </div>
       </div>
     </div>
