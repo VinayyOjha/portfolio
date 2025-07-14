@@ -9,7 +9,7 @@ import { Skills } from "./Skills";
 const Landing = () => {
   return (
     <div className="min-h-screen bg-[#0f0f0f]">
-      <div className="container min-h-screen max-w-3xl mx-auto border border-white/15">
+      <div className="container pb-8 min-h-screen max-w-3xl mx-auto border border-white/15">
         <div className=" flex flex-col ">
           <Nav />
           <Separator />
@@ -22,7 +22,6 @@ const Landing = () => {
           <Skills />
           <Separator />
           <Acheivements />
-          <Separator />
         </div>
       </div>
     </div>

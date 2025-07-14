@@ -3,9 +3,9 @@ import { NewDate } from "@/components/common/NewDate"
 
 const Nav = () => {
   return (
-    <div className="p-2 md:p-4 flex justify-between text-blue-400">
+    <div className="p-2 md:p-4 flex justify-between font-mono text-blue-400">
       {/* Left Container */}
-      <div className="flex flex-col items-start gap-2">
+      <div className="flex flex-col items-start text-md gap-2">
         <div className="font-mono underline underline-offset-4">
           [Blog]
         </div>

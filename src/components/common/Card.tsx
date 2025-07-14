@@ -25,7 +25,7 @@ export const Card = ({
     // Outer card Container
     <div
       className={cn(
-        `group grid-cols-1 rounded-sm flex flex-col font-mono transition-all duration-300 ease-in cursor-pointer border border-white/10 hover:shadow shadow-gray-500`,
+        `group grid-cols-1 rounded-sm flex flex-col font-mono transition-all duration-300 ease-in cursor-pointer border border-white/20  hover:shadow shadow-gray-500`,
         cardClassName
       )}
     >
