@@ -1,4 +1,4 @@
-import { Card } from "@/components/common/Card";
+import Card from "@/components/common/Card";
 import InterviewHive from "@/assets/project-interviewHive.png";
 import CodeCrunch from "@/assets/project-CodeCrunch3.png";
 import Eduflow from "@/assets/project-ICOSOM.png";
@@ -15,16 +15,17 @@ const Projects = () => {
 
         {/* Projects */}
         <div className="gap-6 w-full grid grid-cols-1 sm:grid-cols-2">
+          
           <Card
-            image={CodeCrunch}
-            projectName="CodeCrunch"
+            tagsClassName="bg-black text-white/70"
+            imgSrc={InterviewHive}
+            projectName="Interview Hive"
             projectDescription="...is a web applic that helps college students prepare for campus placements."
             tags={[
               "React+TS",
               "RAG",
               "LangChain",
               "VectorDB",
-              "Jenkins",
               "Zustand",
               "Resend",
               "Clerk",
@@ -35,26 +36,29 @@ const Projects = () => {
               "AWS S3",
               "Vercel",
             ]}
-            website="https://interview-hive.dev-projects.site"
-            github="https://github.com/Maverick-08/InterviewHive"
+            websiteLink="https://interview-hive.dev-projects.site"
+            githubLink="https://github.com/Maverick-08/InterviewHive"
+            />
+            <Card
+            tagsClassName="bg-black text-white/70"
+            imgSrc={CodeCrunch}
+            projectName="CodeCrunch"
+            tags={["React", "TypeScript ", "TailwindCSS", "Motion"]}
+            projectDescription="A platofrm to mangae and organise Coding Contests."
+            websiteLink="https://code-crunch-tau.vercel.app/"
+            githubLink="https://github.com/VinayyOjha/CodeCrunch"
           />
           <Card
-            image={InterviewHive}
-            projectName="Interview Hive"
-            projectDescription="...is a web applic that helps college students prepare for campus placements."
-            tags={["React", "TypeScript ", "TailwindCSS"]}
-            website="https://icosom-vives-projects-e2b6c210.vercel.app/"
-            github="https://github.com/Maverick-08/icosom"
-          />
-          <Card
-            image={Eduflow}
+            tagsClassName="bg-black text-white/70"
+            imgSrc={Eduflow}
             projectName="EduFlow"
-            projectDescription="...is a web applic that helps college students prepare for campus placements."
+            projectDescription="A student record management system."
           />
           <Card
-            image={animationLibrary}
+            tagsClassName="bg-black text-white/70"
+            imgSrc={animationLibrary}
             projectName="Animata"
-            projectDescription="...is a web applic that helps college students prepare for campus placements."
+            projectDescription="A project to test learnings on Motion with TailwindCSS"
           />
         </div>
       </div>
