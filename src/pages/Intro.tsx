@@ -42,7 +42,7 @@ const Intro = () => {
         </div>
         <div className="gap-2 flex items-start">
           <div className="rounded-full text-white">-</div>
-          <p>Math, CS, History are areas which intrigue me.</p>
+          <p>Math, CS, History and Spirituality are areas which intrigue me.</p>
         </div>
         <div className="gap-2 flex items-start">
           <div className="rounded-full text-white">-</div>

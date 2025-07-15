@@ -9,8 +9,8 @@ const Projects = () => {
     <div className="px-2 md:px-4">
       <div className="flex flex-col gap-12 font-mono text-white">
         {/* Heading */}
-        <div className="text-2xl font-bold text-center tracking-tight underline underline-offset-4">
-          Projects
+        <div className="text-2xl font-bold text-center tracking-tight">
+          PROJECTS
         </div>
 
         {/* Projects */}
@@ -52,13 +52,21 @@ const Projects = () => {
             tagsClassName="bg-black text-white/70"
             imgSrc={Eduflow}
             projectName="EduFlow"
-            projectDescription="A student record management system."
+            projectDescription="A cost-efficient full-stack classroom management platform for seamless assignment tracking, material sharing, and grading.."
+            tags={[
+                "React JS",
+                "Recoil ",
+                "TailwindCSS",
+                "NodeJS",
+                "PostgreSQL",
+              ]}
           />
           <Card
             tagsClassName="bg-black text-white/70"
             imgSrc={animationLibrary}
             projectName="Animata"
-            projectDescription="A project to test learnings on Motion with TailwindCSS"
+            tags={["React", "Motion ", "TailwindCSS", "Javascript"]}
+            projectDescription="A simple project to test my learnings on Motion (prev Framer-Motion)."
           />
         </div>
       </div>

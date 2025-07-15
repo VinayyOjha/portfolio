@@ -8,6 +8,14 @@
   --font-secondary: "Truculenta", sans-serif;
   --font-ms: "JetBrains Mono", monospace;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
 
 @custom-variant dark (&:is(.dark *));
 

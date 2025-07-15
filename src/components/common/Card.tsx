@@ -37,7 +37,7 @@ const Card = ({
   return (
     <div
       className={cn(
-        `group flex flex-col gap-4 justify-between rounded-sm col-span-1 border border-[#333333]/80 group-hover:border-[#333333]/90 group hover:shadow-md shadow-[#171717] transition-all duration-300 ease-in`,
+        `group flex flex-col gap-4 justify-between rounded-sm col-span-1 border border-[#333333]/80 group-hover:border-[#333333]/90 group hover:shadow-md shadow-[#333333] transition-all duration-300 ease-in`,
         className
       )}
     >
@@ -115,7 +115,7 @@ const Card = ({
       </div>
 
       {/* Website and Gtihub link */}
-      <div className="mt-2 flex gap-2">
+      <div className="px-1  flex gap-2">
         {/* LiveLink */}
         <div
           onClick={() => window.open(websiteLink, "_blank")}
