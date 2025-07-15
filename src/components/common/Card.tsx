@@ -37,7 +37,7 @@ const Card = ({
   return (
     <div
       className={cn(
-        `group p-2 flex flex-col gap-4 justify-between rounded-sm col-span-1 border border-[#333333]/80 group-hover:border-[#333333]/90 group hover:shadow-md shadow-[#171717] transition-all duration-300 ease-in`,
+        `group flex flex-col gap-4 justify-between rounded-sm col-span-1 border border-[#333333]/80 group-hover:border-[#333333]/90 group hover:shadow-md shadow-[#171717] transition-all duration-300 ease-in`,
         className
       )}
     >
@@ -61,7 +61,7 @@ const Card = ({
         </div>
 
         {/* Name and Description */}
-        <div className="flex flex-col gap-2 items-start">
+        <div className=" p-2 flex flex-col gap-2 items-start">
           {/* Text content */}
           <div className="gap-2 px-1 flex flex-col tracking-tight text-sm">
             <div className="font-bold font-mono text-xl text-white/90 group-hover:text-blue-400 transition-all  duration-400 ">
