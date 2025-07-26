@@ -1,8 +1,7 @@
 import Card from "@/components/common/Card";
 import InterviewHive from "@/assets/project-interviewHive.png";
 import CodeCrunch from "@/assets/project-CodeCrunch3.png";
-import Eduflow from "@/assets/project-ICOSOM.png";
-import animationLibrary from "@/assets/al.gif";
+import InstaMart from "@/assets/instamart.png";
 
 const Projects = () => {
   return (
@@ -47,26 +46,15 @@ const Projects = () => {
             projectDescription="A platofrm to mangae and organise Coding Contests."
             websiteLink="https://code-crunch-tau.vercel.app/"
             githubLink="https://github.com/VinayyOjha/CodeCrunch"
-          />
+            />
+          
           <Card
             tagsClassName="bg-black text-white/70"
-            imgSrc={Eduflow}
-            projectName="EduFlow"
-            projectDescription="A cost-efficient full-stack classroom management platform for seamless assignment tracking, material sharing, and grading.."
-            tags={[
-                "React JS",
-                "Recoil ",
-                "TailwindCSS",
-                "NodeJS",
-                "PostgreSQL",
-              ]}
-          />
-          <Card
-            tagsClassName="bg-black text-white/70"
-            imgSrc={animationLibrary}
-            projectName="Animata"
-            tags={["React", "Motion ", "TailwindCSS", "Javascript"]}
-            projectDescription="A simple project to test my learnings on Motion (prev Framer-Motion)."
+            imgSrc={InstaMart}
+            projectName="InstaMart"
+            tags={["React", "TailwindCSS", "Java", "SpringBoot"]}
+            projectDescription="A semi-full stack project to test out my learnigs with SpringBoot."
+            githubLink="https://github.com/VinayyOjha/eCommerceApp-SpringBoot"
           />
         </div>
       </div>
