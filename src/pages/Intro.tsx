@@ -12,7 +12,7 @@ const Intro = () => {
             <div className="flex items-end">I'm</div>{" "}
             <div className="font-bold text-3xl text-white">Vinay Ojha.</div>
           </div>
-          <p className="pl-1.5 text-[12px] text-white/70">engineer, dev</p>
+          <p className="text-[12px] text-white/70">eng, dev</p>
         </div>
 
         {/* Image */}
