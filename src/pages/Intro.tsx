@@ -1,5 +1,6 @@
 import PFP from "@/assets/PFP.png";
 import { ContactDialog } from "@/components/common/ContactDialog";
+import { IntroForMobile } from "@/components/IntroForMobile";
 import { CallBellIcon, Download } from "@phosphor-icons/react";
 const Intro = () => {
   return (
@@ -7,7 +8,7 @@ const Intro = () => {
       {/* 1st: Name and Photo */}
       <div className="flex justify-between items-center ">
         {/* Name */}
-        <div className="flex flex-col">
+        <div className="hidden sm:flex flex-col">
           <div className="flex gap-3 text-white/85 text-2xl">
             <div className="flex items-end">I'm</div>{" "}
             <div className="font-bold text-3xl text-white">Vinay Ojha.</div>
@@ -23,6 +24,8 @@ const Intro = () => {
             className="h-20 w-20 rounded-full"
           />
         </div>
+
+        <IntroForMobile />
       </div>
 
       {/* 2nd: Brief Info */}
