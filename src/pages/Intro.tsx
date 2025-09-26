@@ -3,7 +3,7 @@ import { ContactDialog } from "@/components/common/ContactDialog";
 import { CallBellIcon, Download } from "@phosphor-icons/react";
 const Intro = () => {
   return (
-    <div className="px-2 md:px-4 flex flex-col gap-2 font-mono">
+    <div className="px-3 flex flex-col gap-2 font-mono">
       {/* 1st: Name and Photo */}
       <div className="flex justify-between items-center ">
         {/* Name */}

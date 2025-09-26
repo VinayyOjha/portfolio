@@ -8,12 +8,13 @@ const skillArray = [
   { label: "React", imgSrc: "https://cdn.simpleicons.org/react" },
   { label: "Typescript", imgSrc: "https://cdn.simpleicons.org/typescript" },
   { label: "LangChain", imgSrc: "https://cdn.simpleicons.org/langchain" }, // Not available officially
-  { label: "Python", imgSrc: "https://cdn.simpleicons.org/python" },
-  { label: "Langgraph", imgSrc: "https://cdn.simpleicons.org/langgraph" }, // Not available officially
+  { label: "MongoDB", imgSrc: "https://cdn.simpleicons.org/mongodb" }, // Not available officially
+  // { label: "Python", imgSrc: "https://cdn.simpleicons.org/python" },
+  // { label: "Langgraph", imgSrc: "https://cdn.simpleicons.org/langgraph" }, // Not available officially
   { label: "Postgres", imgSrc: "https://cdn.simpleicons.org/postgresql" },
   { label: "Docker", imgSrc: "https://cdn.simpleicons.org/docker" },
   { label: "Express", imgSrc: "https://cdn.simpleicons.org/express" },
-  { label: "NextJs", imgSrc: "https://cdn.simpleicons.org/nextdotjs" },
+  // { label: "NextJs", imgSrc: "https://cdn.simpleicons.org/nextdotjs" },
 ];
 
 export const SkillsTags = ({ className }: { className?: string }) => {

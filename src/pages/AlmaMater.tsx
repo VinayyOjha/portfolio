@@ -3,7 +3,7 @@ import IOS from "@/assets/IOS.png";
 
 export const AlmaMater = () => {
   return (
-    <div className="px-2 md:px-4">
+    <div className="px-3">
       <div className="flex flex-col gap-12 font-mono text-white">
         {/* Heading */}
         <div className="text-2xl font-bold text-center">ALMA MATER</div>
