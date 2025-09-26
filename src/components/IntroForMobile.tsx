@@ -2,7 +2,7 @@ import pfp from "../assets/PFP.png";
 
 export const IntroForMobile = () => {
   return (
-    <div className="p-2 w-full flex justify-between rounded-md border border-white/40">
+    <div className="sm:hidden p-2 w-full flex justify-between rounded-md border border-white/40">
         <div className="">
             <img 
                 src={pfp} 
