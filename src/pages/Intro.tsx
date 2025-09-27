@@ -64,7 +64,7 @@ const Intro = () => {
       </div>
 
       {/* 3rd: Availability and Contact Info */}
-      <div className="mt-4 flex flex-col gap-4 sm:gap-0 sm:flex-row justify-between items-center">
+      <div className="mt-4 flex flex-col gap-4 sm:gap-0 sm:flex-row justify-between items-start sm:items-center">
         {/* availability */}
         <div className="px-2 h-fit flex gap-1.5 items-center rounded-full border border-green-500 bg-green-500/20">
           <div className="relative">
