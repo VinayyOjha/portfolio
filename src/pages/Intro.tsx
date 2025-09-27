@@ -8,12 +8,22 @@ const Intro = () => {
       {/* 1st: Name and Photo */}
       <div className="flex justify-between items-center ">
         {/* Name */}
-        <div className="hidden sm:flex flex-col">
-          <div className="flex gap-3 text-white/85 text-2xl">
+        {/* <div className="hidden sm:flex flex-col ">
+          <div className="flex gap- text-white/85 text-2xl">
             <div className="flex items-end">I'm</div>{" "}
-            <div className="font-bold text-3xl text-white">Vinay Ojha.</div>
+            <div className="font-bold text-3xl text-white">Vinay Ojha</div>
+            <span className="h-2 animate-caret-blink">.</span>
           </div>
           <p className="text-[12px] text-white/70">eng, dev</p>
+        </div> */}
+        <div className="hidden sm:block">
+          <span className="font-ms tracking-tight text-2xl text-white/50">
+            I'm <span className="text-white">Vinay Ojha</span>
+            <span className="h-2 animate-caret-blink text-white/90">.</span>
+          </span>
+          <div className="hidden italic sm:block text-[10px] font-bold text-white/70">
+            engineer, developer
+          </div>
         </div>
 
         {/* Image */}
@@ -54,7 +64,7 @@ const Intro = () => {
       </div>
 
       {/* 3rd: Availability and Contact Info */}
-      <div className="mt-4 flex flex-col gap-4 sm:gap-0 sm:flex-row justify-between items-start">
+      <div className="mt-4 flex flex-col gap-4 sm:gap-0 sm:flex-row justify-between items-center">
         {/* availability */}
         <div className="px-2 h-fit flex gap-1.5 items-center rounded-full border border-green-500 bg-green-500/20">
           <div className="relative">

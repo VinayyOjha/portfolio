@@ -11,7 +11,9 @@ export const IntroForMobile = () => {
         </div>
 
         <div className="font-ms tracking-tight">
-            <div className="text-2xl text-white">Vinay Ojha</div>
+            <div className="flex items-baseline text-white">
+              <div className="text-xl">Vinay Ojha</div>
+            </div>
             <div className="text-end text-[9px] text-white/60">eng, dev</div>
         </div>
     </div>
