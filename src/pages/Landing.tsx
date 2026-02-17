@@ -5,6 +5,7 @@ import Intro from "./Intro";
 import Nav from "./Nav";
 import Projects from "./Projects";
 import { Skills } from "./Skills";
+import { LeetCode } from "./LeetCode";
 
 const Landing = () => {
   return (
@@ -22,6 +23,8 @@ const Landing = () => {
           <Skills />
           <Separator />
           <Acheivements />
+          <Separator />
+          <LeetCode />
         </div>
       </div>
     </div>
