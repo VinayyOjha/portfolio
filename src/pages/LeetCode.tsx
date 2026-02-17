@@ -19,13 +19,16 @@ export const LeetCode = () => {
   useEffect(() => {
     const fetchLeetCodeStats = async () => {
       try {
+        console.log("[v0] Fetching LeetCode stats for oVinayyy");
         const response = await fetch(
           `https://leetcode-stats-api.herokuapp.com/oVinayyy`,
           { signal: AbortSignal.timeout(5000) }
         );
         
+        console.log("[v0] Response status:", response.status);
         if (!response.ok) throw new Error("Failed to fetch");
         const data = await response.json();
+        console.log("[v0] LeetCode data received:", data);
         
         setStats({
           totalSolved: data.totalSolved || 0,
@@ -36,6 +39,7 @@ export const LeetCode = () => {
           acceptanceRate: parseFloat(data.acceptanceRate) || 0,
         });
       } catch (err) {
+        console.log("[v0] LeetCode fetch error:", err);
         setError(err instanceof Error ? err.message : "Error fetching stats");
         // Set fallback data so page still loads
         setStats({
